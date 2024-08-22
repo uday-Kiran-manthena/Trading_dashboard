@@ -1,0 +1,970 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Inter;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 16.94px;
+  text-align: left;
+  color: white;
+}
+.left-sidebar {
+  /* Frame 7 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 32px 0px;
+  gap: 194px;
+
+  position: absolute;
+  width: 241px;
+  height: 1024px;
+  left: 0px;
+  top: 0px;
+
+  background: #9b76d6;
+  /* Gray/100 */
+  border-right: 1px solid #f2f4f7;
+}
+.svg-container {
+  color: #befb7a;
+  margin: 15px 0px;
+  text-align: center;
+}
+.svg-container span {
+  position: relative;
+  bottom: 10px;
+  color: #befb7a;
+}
+.frame-17 {
+  /* Frame 17 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0px;
+  gap: 55px;
+
+  width: 241px;
+  height: 512.95px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame-11 {
+  /* Frame 11 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 241px;
+  height: 280px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame-11 li {
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 8px 12px 24px;
+  gap: 12px;
+
+  width: 241px;
+  height: 43px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame-11 li p {
+  color: white;
+  padding: 0px 10px;
+}
+
+.active-card {
+  /* Frame 9 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 8px 12px 24px;
+  gap: 12px;
+
+  width: 241px;
+  height: 43px;
+
+  background: linear-gradient(
+    90deg,
+    rgba(190, 251, 122, 0) 42.53%,
+    #befb7a 230.08%
+  );
+  /* Brand/2 */
+  border-right: 3px solid #befb7a;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+hr {
+  /* Line 1 */
+
+  width: 241px;
+  height: 0px;
+
+  border: 1px solid #bba1e3;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 4;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.user {
+  /* Frame 17 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px 8px 12px 24px;
+  gap: 12px;
+
+  width: 241px;
+  height: 68px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 5;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.profile {
+  /* Frame 19 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+
+  width: 42px;
+  height: 42px;
+
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.user-details {
+  /* Frame 18 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 155px;
+  height: 44px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 1;
+}
+.frame-22 {
+  position: absolute;
+  width: 1199px;
+  height: 75px;
+  left: 241px;
+  top: 0px;
+
+  /* Gray/25 */
+  background: #fcfcfd;
+  /* Gray/100 */
+  border-bottom: 1px solid #f2f4f7;
+}
+.search-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  position: absolute;
+  width: 309px;
+  height: 34px;
+  left: 858px;
+  top: 20px;
+}
+.search-input {
+  /* Frame 20 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+
+  width: 251px;
+  height: 34px;
+
+  /* Gray/200 */
+  border: 1px solid #eaecf0;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.search-input p {
+  color: #98a2b3;
+}
+.frame-21 {
+  /* Frame 21 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+
+  width: 34px;
+  height: 34px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.dashboard-heading {
+  /* Dashboard */
+
+  position: absolute;
+  width: 95px;
+  height: 22px;
+  left: 21px;
+  top: calc(50% - 22px / 2 + 0.5px);
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 22px;
+  /* identical to box height */
+
+  /* Gray/700 */
+  color: #344054;
+}
+.frame-23 {
+  /* Frame 23 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 24px;
+
+  position: absolute;
+  width: 793px;
+  height: 227px;
+  left: 265px;
+  top: 99px;
+
+  background: #ffffff;
+  /* Gray/100 */
+  border: 2px solid #f2f4f7;
+  border-radius: 12px;
+}
+.quicklinks-text {
+  /* Quick Links */
+
+  width: 761px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Gray/700 */
+  color: #344054;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame-24 {
+  /* Frame 24 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 761px;
+  height: 154px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frames {
+  /* Frame 21 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+  gap: 8px;
+
+  width: 101px;
+  height: 73px;
+
+  /* Gray/25 */
+  background: #fcfcfd;
+  /* Gray/50 */
+  border: 1px solid #f9fafb;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frames p {
+  /* Deposit */
+
+  width: 52px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Gray/700 */
+  color: #344054;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame-25 {
+  /* Frame 25 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 16px 32px;
+  gap: 24px;
+
+  position: absolute;
+  width: 793px;
+  height: 455.51px;
+  left: 265px;
+  top: 350px;
+
+  background: #ffffff;
+  /* Gray/100 */
+  border: 2px solid #f2f4f7;
+  border-radius: 12px;
+}
+.frame-37 {
+  /* Frame 37 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 24px;
+
+  width: 761px;
+  height: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.over-view-text {
+  /* Overview */
+
+  margin: 0 auto;
+  width: 64px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Gray/700 */
+  color: #344054;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame-38 {
+  /* Frame 38 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+
+  margin: 0 auto;
+  width: 164px;
+  height: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame-38 p {
+  /* Download Report */
+
+  width: 116px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Brand/1 */
+  color: #ad8edd;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.nav-list {
+  /* Navigation Pill List */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  align-content: flex-start;
+  padding: 0px;
+  gap: 8px;
+
+  width: 164px;
+  height: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.nav1 {
+  /* Navigation Pill */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+
+  width: 78px;
+  height: 32px;
+
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.nav1 p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+
+  /* Gray/400 */
+  color: #98a2b3;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.nav2 {
+  /* Navigation Pill */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px;
+  gap: 8px;
+
+  width: 78px;
+  height: 32px;
+
+  background: #f1ebf9;
+  border-radius: 8px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.nav2 p {
+  /* Single Line/Body Base
+
+Used for any text element where you need 100% line height. For example, an input field, a label.
+*/
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 100%;
+  /* identical to box height, or 16px */
+  display: flex;
+  align-items: center;
+
+  /* Gray/800 */
+  color: #1d2939;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame1001 {
+  /* Frame 1000001443 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 10.8px;
+
+  width: 761px;
+  height: 295.51px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame1441 {
+  /* Frame 1000001441 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 12.8px;
+
+  width: 36px;
+  height: 295.51px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame1441 p {
+  /* $1500 */
+
+  margin: 0 auto;
+  width: 35px;
+  height: 13px;
+
+  font-family: "Manrope";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 11.9965px;
+  line-height: 110%;
+  /* or 13px */
+
+  /* Gray/400 */
+  color: #98a2b3;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+
+.frame24 {
+  /* Frame 24 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 18px;
+
+  position: absolute;
+  width: 326px;
+  height: 355px;
+  left: 1082px;
+  top: 99px;
+
+  background: #ffffff;
+  /* Gray/100 */
+  border: 2px solid #f2f4f7;
+  border-radius: 12px;
+}
+.trading-txt {
+  /* Trading Accounts */
+
+  width: 294px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Gray/700 */
+  color: #344054;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame32 {
+  /* Frame 32 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 24px 17px;
+  gap: 12px;
+
+  width: 294px;
+  height: 135px;
+
+  /* Gray/25 */
+  background: #fcfcfd;
+  /* Gray/200 */
+  border: 1px solid #eaecf0;
+  border-radius: 12px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.master-txt {
+  /* Master Account */
+
+  width: 93px;
+  height: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* Gray/700 */
+  color: #344054;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame35 {
+  /* Frame 35 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 125px;
+  height: 23px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame34 {
+  /* Frame 34 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 4px 8px;
+  gap: 8px;
+
+  width: 63px;
+  height: 23px;
+
+  /* Gray/100 */
+  background: #f2f4f7;
+  border-radius: 32px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame34 p {
+  /* CTrader */
+
+  width: 47px;
+  height: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* Gray/700 */
+  color: #344054;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame35 p {
+  /* #273728 */
+
+  width: 52px;
+  height: 15px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 15px;
+  /* identical to box height */
+
+  /* Gray/500 */
+  color: #667085;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+.frame36 {
+  /* Frame 36 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px;
+  gap: 10px;
+
+  width: 260px;
+  height: 25px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.frame33 {
+  /* Frame 33 */
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 0px;
+  gap: 4px;
+
+  margin: 0 auto;
+  width: 112px;
+  height: 25px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame33 p {
+  /* 0.00 */
+
+  width: 74px;
+  height: 25px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 25px;
+  /* identical to box height, or 78% */
+  display: flex;
+  align-items: center;
+
+  /* Gray/700 */
+  color: #344054;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  flex-grow: 0;
+}
+.frame36 svg {
+  /* arrow-right-up-line */
+
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+.frame26 {
+  /* Frame 26 */
+
+  box-sizing: border-box;
+
+  /* Auto layout */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px;
+  gap: 18px;
+
+  position: absolute;
+  width: 326px;
+  height: 325px;
+  left: 1082px;
+  top: 478px;
+
+  background: #ffffff;
+  /* Gray/100 */
+  border: 2px solid #f2f4f7;
+  border-radius: 12px;
+}
+.opentrades {
+  /* Open Trades */
+
+  width: 294px;
+  height: 17px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  /* identical to box height */
+
+  /* Gray/700 */
+  color: #344054;
+
+  /* Inside auto layout */
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
